@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mania Fitness Academia</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                  url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00ff88;
+      color: #000;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cc6a;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #222;
+    }
+
+    .rating {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #00ff88;
+      margin-top: 10px;
+    }
+
+    .info p {
+      margin: 8px 0;
+      color: #ccc;
+    }
+
+    .reviews p {
+      font-style: italic;
+      color: #bbb;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Mania Fitness</h1>
+    <p>Transforme seu corpo. Eleve sua mente.</p>
+    <a href="tel:91991170248" class="btn">Agendar Agora</a>
+  </div>
+</header>
+
+<section>
+  <h2>Sobre a Academia</h2>
+  <div class="card">
+    <p>
+      A Mania Fitness é uma academia completa em Castanhal, com estrutura moderna,
+      profissionais qualificados e um ambiente motivador para você alcançar seus objetivos.
+    </p>
+    <div class="rating">⭐ 4,8 | 15 avaliações</div>
+  </div>
+</section>
+
+<section>
+  <h2>Diferenciais</h2>
+  <div class="grid">
+    <div class="card">💪 Equipamentos modernos</div>
+    <div class="card">🎓 Profissionais qualificados</div>
+    <div class="card">💃 Aulas de dança</div>
+    <div class="card">💰 Preço acessível</div>
+    <div class="card">🚗 Estacionamento acessível</div>
+    <div class="card">📱 Pagamento via NFC</div>
+  </div>
+</section>
+
+<section>
+  <h2>Informações</h2>
+  <div class="card info">
+    <p><strong>📍 Endereço:</strong> R. Mario Moura Filho, 20 - Caicara, Castanhal - PA</p>
+    <p><strong>📞 Telefone:</strong> (91) 99117-0248</p>
+    <p><strong>⏰ Horário:</strong> Aberto até 21:00</p>
+  </div>
+</section>
+
+<section>
+  <h2>O que dizem nossos alunos</h2>
+  <div class="card reviews">
+    <p>"Lugar ideal pra quem quer ficar em forma!"</p>
+    <p>"A melhor aula de dança da cidade!"</p>
+    <p>"Ótimo atendimento e profissionais excelentes."</p>
+  </div>
+</section>
+
+<section style="text-align:center;">
+  <h2>Comece Hoje</h2>
+  <p>Agende sua visita e dê o primeiro passo para sua transformação.</p>
+  <a href="tel:91991170248" class="btn">Falar com a Academia</a>
+</section>
+
+<footer>
+  <p>© 2026 Mania Fitness Academia • Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
